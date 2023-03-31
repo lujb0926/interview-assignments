@@ -1,7 +1,7 @@
 import './App.css';
-
+import Home from './page/Home'
 function App() {
-  return <div className='App'>{/* write your component here */}</div>;
+  return <div className='App'>{<Home/>}</div>;
 }
 
 export default App;
